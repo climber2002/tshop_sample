@@ -1,3 +1,3 @@
 = TshopSample
 
-This project rocks and uses MIT-LICENSE.
+This plugin creates a set of sample data for TShop.

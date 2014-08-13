@@ -65,6 +65,7 @@ GEM
       colorize (>= 0.5.8)
       nokogiri (~> 1.6.0)
       rails (>= 3.1)
+    diff-lcs (1.2.5)
     erubis (2.7.0)
     ffaker (1.24.0)
     font-awesome-rails (4.1.0.0)
@@ -130,6 +131,22 @@ GEM
       activesupport (>= 3.0)
       i18n
       polyamorous (~> 1.0.0)
+    rspec-core (3.0.3)
+      rspec-support (~> 3.0.0)
+    rspec-expectations (3.0.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.0.0)
+    rspec-mocks (3.0.3)
+      rspec-support (~> 3.0.0)
+    rspec-rails (3.0.1)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (~> 3.0.0)
+      rspec-expectations (~> 3.0.0)
+      rspec-mocks (~> 3.0.0)
+      rspec-support (~> 3.0.0)
+    rspec-support (3.0.3)
     spree_core (2.3.1)
       activemerchant (~> 1.43.1)
       acts_as_list (= 0.3.0)
@@ -180,5 +197,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rspec-rails (= 3.0.1)
   sqlite3
   tshop_sample!

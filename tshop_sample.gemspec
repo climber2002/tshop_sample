@@ -7,16 +7,19 @@ require "tshop_sample/version"
 Gem::Specification.new do |s|
   s.name        = "tshop_sample"
   s.version     = TshopSample::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of TshopSample."
-  s.description = "TODO: Description of TshopSample."
+  s.authors     = ["Andy Wang"]
+  s.email       = ["climber2002@gmail.com"]
+  s.homepage    = "http://climber2002.github.io"
+  s.summary     = "Creates sample data for TShop"
+  s.description = "Creates a set of sample data for TShop"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency "rails", "~> 4.1.4"
+  s.add_dependency 'spree_core', '~> 2.3.0'
+  s.add_dependency 'faker'
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec-rails", "3.0.1"
 end
